@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "nginx"
+  ],
+  "processes": [
+    "server.js"
+  ],
+  "hooks": {
+    "postcreate": "./scripts/post_create.sh"
+  }
+}
